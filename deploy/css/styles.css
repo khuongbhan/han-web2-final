@@ -350,15 +350,152 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-start; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        margin: 0 30px 0 0;
+        align-items: center;
+        display: flex; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #008297;
+      text-decoration: none; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #F4A795; }
+
 /* =============
     Header
 ============= */
+header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  header > div {
+    display: grid;
+    grid-template-areas: " logo burger " " nav nav ";
+    grid-template-columns: 80% auto; }
+    header > div section i {
+      color: #008297;
+      font-size: 1.875rem; }
+    @media (min-width: 992px) {
+      header > div {
+        display: grid;
+        grid-template-areas: " logo nav nav ";
+        grid-template-columns: 10% 50% auto; } }
+    header > div #logo-container {
+      grid-area: logo;
+      padding: 20px; }
+      header > div #logo-container img {
+        width: 60px; }
+        @media (min-width: 768px) {
+          header > div #logo-container img {
+            width: 70px; } }
+        @media (min-width: 992px) {
+          header > div #logo-container img {
+            width: 75px; } }
+    header > div #burger-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      grid-area: burger;
+      padding: 20px; }
+      @media (min-width: 992px) {
+        header > div #burger-container {
+          display: none !important; } }
+      header > div #burger-container i {
+        cursor: pointer; }
+    header > div #nav-container {
+      grid-area: nav;
+      display: none;
+      padding: 20px;
+      background-color: #FAF3E9; }
+      @media (min-width: 992px) {
+        header > div #nav-container {
+          display: block !important;
+          grid-area: nav; } }
 /* =============
     Footer
 ============= */
 /* =============
     Section 1
 ============= */
+#section-1 {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". title-container ."; }
+  @media (min-width: 1200px) {
+    #section-1 {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". title-container ."; } }
+  #section-1 #title-container {
+    grid-area: title-container;
+    background-image: url("../img/section-1/banner.svg");
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 90px; }
+    @media (min-width: 768px) {
+      #section-1 #title-container {
+        height: 750px; } }
+    @media (min-width: 992px) {
+      #section-1 #title-container {
+        height: 1040px; } }
+    @media (min-width: 1200px) {
+      #section-1 #title-container {
+        grid-area: title-container; } }
+    #section-1 #title-container h1 {
+      color: #008297;
+      margin-top: 20px;
+      font-size: 1.25rem;
+      text-align: center; }
+      @media (min-width: 768px) {
+        #section-1 #title-container h1 {
+          font-size: 1.75rem;
+          margin-top: 130px; } }
+      @media (min-width: 992px) {
+        #section-1 #title-container h1 {
+          font-size: 2rem;
+          margin-top: 210px; } }
+    #section-1 #title-container #masthead {
+      width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+      @media (min-width: 768px) {
+        #section-1 #title-container #masthead {
+          width: 580px; } }
+      @media (min-width: 992px) {
+        #section-1 #title-container #masthead {
+          width: 770px; } }
+    #section-1 #title-container #register-button {
+      width: 154px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      cursor: pointer; }
+      @media (min-width: 768px) {
+        #section-1 #title-container #register-button {
+          width: 225px;
+          margin-top: 20px; } }
+      @media (min-width: 992px) {
+        #section-1 #title-container #register-button {
+          width: 230px;
+          margin-top: 20px; } }
 /* =============
     Section 2
 ============= */
@@ -380,3 +517,5 @@ textarea {
 /* =============
     Section 8
 ============= */
+body {
+  background-color: #FAF3E9; }

@@ -2,5 +2,98 @@
     Section 1
 ============= */
 #section-1 {
-    
+    padding-top: 90px;
+
+    // @include lg {
+    //     padding-top: 0;
+    // }
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". title-container .";
+
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". title-container .";
+    }
+
+    #title-container {
+        grid-area: title-container;
+
+        background-image: url('../img/section-1/banner.svg');
+        height: 370px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 90px;
+
+        @include md {
+            height: 750px;
+            // padding-top: 100px;
+        }
+
+        @include lg {
+            height: 1040px;
+        }
+
+        @include xl {
+            grid-area: title-container;
+        }
+
+        h1 {
+            color: $nav-teal;
+            // margin-left: 50px;
+            margin-top: 20px;
+            font-size: rem-calc(20);
+            text-align: center;
+
+            @include md {
+                font-size: rem-calc(28);
+                margin-top: 130px;
+            }
+
+            @include lg {
+                font-size: rem-calc(32);
+                margin-top: 210px;
+            }
+        }
+
+        #masthead {
+            width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            // margin-top: 100px;
+
+            @include md {
+                width: 580px;
+            }
+
+            @include lg {
+                width: 770px;
+            }
+        }
+
+        #register-button {
+            width: 154px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            cursor: pointer;
+
+            @include md {
+                width: 225px;
+                margin-top: 20px;
+            }
+
+            @include lg {
+                width: 230px;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
 }

@@ -63,70 +63,45 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-1/circle.svg": {
+	"/deploy/img/header/thepeople-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/section-1/circle.svg",
+		"oAP": "/deploy/img/header/thepeople-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/section-1/hero.jpg": {
-		"ft": 16384,
-		"iS": 413135,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-1/hero.jpg",
+	"/deploy/img/section-1/banner.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-1/banner.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
-	"/deploy/img/section-2/shoes.jpg": {
-		"ft": 16384,
-		"iS": 60899,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-2/shoes.jpg",
+	"/deploy/img/section-1/registerbutton.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-1/registerbutton.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
-	"/deploy/img/section-3/gallery-1.jpg": {
-		"ft": 16384,
-		"iS": 32505,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/gallery-1.jpg",
+	"/deploy/img/section-1/revolutionnaire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-1/revolutionnaire.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-3/gallery-2.jpg": {
-		"ft": 16384,
-		"iS": 36715,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/gallery-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-3/gallery-3.jpg": {
-		"ft": 16384,
-		"iS": 38831,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/gallery-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="261px" height="104px" viewBox="0 0 261 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>register</title>
+    <defs>
+        <filter x="-9.6%" y="-33.9%" width="119.2%" height="167.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-378.000000, -407.000000)">
+            <g id="home-page" transform="translate(7.000000, 0.000000)">
+                <g id="register" transform="translate(384.000000, 423.000000)">
+                    <g id="Group" transform="translate(8.000000, 5.000000)" fill="#008297" fill-opacity="0.4">
+                        <rect id="Rectangle" filter="url(#filter-1)" x="0" y="0" width="219" height="62" rx="19"></rect>
+                    </g>
+                    <g id="desktop_register">
+                        <g id="Group">
+                            <rect id="Rectangle" fill="#008297" x="0" y="0" width="219" height="62" rx="19"></rect>
+                            <text id="register" font-family="RobotoMono-Regular, Roboto Mono" font-size="30" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="37.9882812" y="42">register</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
