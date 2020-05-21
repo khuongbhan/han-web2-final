@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 253 96" style="enable-background:new 0 0 253 96;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#filter-1);}
+	.st1{opacity:0.4;fill-rule:evenodd;clip-rule:evenodd;fill:#008297;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#008297;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'RobotoMono-Regular';}
+	.st5{font-size:26px;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="167.7%" id="filter-1" width="119.2%" x="-9.6%" y="-33.9%">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="7"></feGaussianBlur>
+</filter>
+<g id="Page-1">
+	<g id="Desktop" transform="translate(-619.000000, -1374.000000)">
+		<g id="about-section" transform="translate(40.000000, 1085.000000)">
+			<g id="see-more_1_" transform="translate(589.000000, 300.000000)">
+				<g id="seemore">
+					<g id="Group" transform="translate(7.000000, 6.000000)">
+						<g id="Rectangle" class="st0">
+							<path class="st1" d="M19,0h181c10.5,0,19,8.5,19,19v24c0,10.5-8.5,19-19,19H19C8.5,62,0,53.5,0,43V19C0,8.5,8.5,0,19,0z"/>
+						</g>
+					</g>
+					<g id="desktop_see-more">
+						<path id="Rectangle_1_" class="st2" d="M19,0h181c10.5,0,19,8.5,19,19v24c0,10.5-8.5,19-19,19H19C8.5,62,0,53.5,0,43V19
+							C0,8.5,8.5,0,19,0z"/>
+						<text transform="matrix(1 0 0 1 47.5898 39.0583)" class="st3 st4 st5">see more</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
