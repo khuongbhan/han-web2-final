@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="883px" viewBox="0 0 141 883" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>timeline</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-432.000000, -3331.000000)">
+            <g id="timeline-section" transform="translate(-230.000000, 3226.000000)">
+                <g id="timeline" transform="translate(662.000000, 106.000000)">
+                    <g transform="translate(45.480474, 0.000000)">
+                        <line x1="-414.460948" y1="440.5" x2="464.5" y2="440.5" id="Line-2" stroke="#008297" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(25.000000, 440.500000) rotate(-270.000000) translate(-25.000000, -440.500000) "></line>
+                        <g id="Group" transform="translate(0.519526, 113.000000)">
+                            <circle id="Oval-Copy-3" fill="#B4DFE7" transform="translate(22.500000, 31.500000) rotate(-270.000000) translate(-22.500000, -31.500000) " cx="22.5" cy="31.5" r="22.5"></circle>
+                            <circle id="Oval-Copy-4" fill="#003D8E" transform="translate(22.500000, 329.500000) rotate(-270.000000) translate(-22.500000, -329.500000) " cx="22.5" cy="329.5" r="22.5"></circle>
+                            <circle id="Oval-Copy-6" fill="#F4C1B8" transform="translate(22.500000, 632.500000) rotate(-270.000000) translate(-22.500000, -632.500000) " cx="22.5" cy="632.5" r="22.5"></circle>
+                            <circle id="Oval" stroke="#FEDEC9" stroke-width="3.5" transform="translate(26.500000, 22.500000) rotate(-270.000000) translate(-26.500000, -22.500000) " cx="26.5" cy="22.5" r="20.75"></circle>
+                            <circle id="Oval-Copy-5" stroke="#F4C1B8" stroke-width="3.5" transform="translate(26.500000, 325.500000) rotate(-270.000000) translate(-26.500000, -325.500000) " cx="26.5" cy="325.5" r="20.75"></circle>
+                            <circle id="Oval-Copy-7" stroke="#B4DFE7" stroke-width="3.5" transform="translate(26.500000, 623.500000) rotate(-270.000000) translate(-26.500000, -623.500000) " cx="26.5" cy="623.5" r="20.75"></circle>
+                        </g>
+                    </g>
+                    <text id="exhibition" font-family="RobotoMono-Bold, Roboto Mono" font-size="16" font-weight="bold" fill="#F4796D">
+                        <tspan x="118" y="104.5">ex</tspan>
+                        <tspan x="118" y="125.5">hi</tspan>
+                        <tspan x="118" y="146.5">bi</tspan>
+                        <tspan x="118" y="167.5">ti</tspan>
+                        <tspan x="118" y="188.5">on</tspan>
+                    </text>
+                    <text id="mini-carnival" font-family="RobotoMono-Bold, Roboto Mono" font-size="16" font-weight="bold" fill="#FEDEC9">
+                        <tspan x="1.3984375" y="394.5">mi</tspan>
+                        <tspan x="1.3984375" y="415.5">ni </tspan>
+                        <tspan x="1.3984375" y="436.5">ca</tspan>
+                        <tspan x="1.3984375" y="457.5">rn</tspan>
+                        <tspan x="1.3984375" y="478.5">iv</tspan>
+                        <tspan x="1.3984375" y="499.5">al</tspan>
+                    </text>
+                    <text id="workshop" font-family="RobotoMono-Bold, Roboto Mono" font-size="16" font-weight="bold" fill="#B4DFE7">
+                        <tspan x="119.898438" y="717.5">wo</tspan>
+                        <tspan x="119.898438" y="738.5">rk</tspan>
+                        <tspan x="119.898438" y="759.5">sh</tspan>
+                        <tspan x="119.898438" y="780.5">op</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,3 +1,96 @@
 /* =============
     Section 7
 ============= */
+#section-7 {
+    padding: 20px 0;
+    
+    @include md {
+        padding: 50px 0;
+    }
+
+    #section-7-container {
+        display: grid;
+        grid-template-rows: 270px auto;
+        grid-template-areas: "photo"
+            "content";
+
+        // padding: 60px 0;
+
+        @include md {
+            display: grid;
+            grid-template-rows: 1fr;
+            // grid-area: photo;
+            background-image: url('../img/section-7/birds.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 580px;
+        }
+
+        @include lg {
+            height: 900px;
+        }
+
+        #section-7-img {
+            grid-area: photo;
+            background-image: url('../img/section-7/birds.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 270px;
+
+            @include md {
+                display: none;
+            }
+        }
+
+        @include md {
+            height: 580px;
+        }
+
+
+        #section-7-content {
+            // grid-area: content;
+            text-align: center;
+
+            h1 {
+                color: $footer-text;
+                font-size: rem-calc(40);
+                margin-bottom: 20px;
+
+                @include md {
+                    margin-top: 60px;
+                }
+
+                @include lg {
+                    margin-left: 200px;
+                    text-align: left;
+                }
+            }
+
+            p {
+                color: $nav-teal;
+                margin-bottom: 5px;
+
+                @include lg {
+                    margin-left: 200px;
+                    text-align: left;
+                }
+            }
+
+            img {
+                width: 200px;
+                cursor: pointer;
+
+                @include md {
+                    width: 225px;
+                }
+
+                @include lg {
+                    display: block;
+                    margin-left: 180px;
+                }
+            }
+        }
+    }
+}

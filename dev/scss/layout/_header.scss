@@ -13,6 +13,7 @@ header {
         grid-template-areas: " logo burger "
                              " nav nav ";
         grid-template-columns: 80% auto;
+        border-bottom: 2px solid $nav-teal;
 
         // hr {
         //     border-top: 2px solid $nav-teal;
@@ -29,6 +30,7 @@ header {
             display: grid; 
             grid-template-areas: " logo nav nav ";
             grid-template-columns: 10% 50% auto;
+            background-color: $background-color;
         }
 
         #logo-container {

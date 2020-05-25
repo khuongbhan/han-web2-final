@@ -33,3 +33,38 @@
         }
     }
 }
+
+#footer-nav-container {
+
+    ul {
+        height: 100%;
+        text-align: left;
+
+        @include md {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        li {
+            margin-bottom: 20px;
+
+            @include md {
+                margin: 0 40px 0 0;
+                align-items: center;
+                display: flex;
+                // border-top: 2px solid $footer-text;
+            }
+
+            a:link,
+            a:visited {
+                color: $footer-text;
+                text-decoration: none;
+            }
+
+            a:hover,
+            a:active {
+                color: $section-2-text;
+            }
+        }
+    }
+}

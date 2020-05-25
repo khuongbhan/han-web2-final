@@ -1,6 +1,185 @@
 /* =============
     Footer
 ============= */
-footer{
-    
+footer {
+    background-color: $footer-bg;
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+    grid-template-areas: ". footer-container .";
+    padding-bottom: 20px;
+
+    @include md {
+        grid-template-columns: 70px auto 70px;
+        grid-template-areas: ". footer-container .";
+    }
+
+    @include lg {
+        grid-template-columns: 200px auto 200px;
+        grid-template-areas: ". footer-container .";
+    }
+
+    #footer-container {
+        grid-area: footer-container;
+        text-align: center;
+
+        p {
+            color: $footer-text;
+            font-size: rem-calc(24);
+        }
+
+        .creds {
+            font-size: rem-calc(16);
+
+            @include md {
+                grid-area: creds;
+                text-align: left;
+                margin-left: 30px;
+                // vertical-align: baseline;
+            }
+        }
+
+        #newsletter {
+            display: block;
+
+            @include md {
+                display: grid;
+                grid-template-columns: auto 80% auto;
+                // gap: 30px;
+                grid-template-areas:
+                    ". content ."
+                    ". form .";
+            }
+
+            p {
+                grid-area: content;
+            }
+
+            #newsletter-form {
+                display: grid;
+                grid-template-columns: 75% auto;
+                grid-template-areas: "email submit";
+
+                @include md {
+                    grid-area: form;
+                }
+
+                #email {
+                    grid-area: email;
+                    display: block;
+
+                    input {
+                        width: 100%;
+                        border: none;
+                        padding: 15px;
+                        overflow: visible;
+                        cursor: text;
+                        letter-spacing: normal;
+                        word-spacing: normal;
+                        text-transform: none;
+                        text-indent: 0px;
+                        text-shadow: none;
+                        display: inline-block;
+                        text-align: start;
+
+                        @include md {
+                            padding: 20px;
+                        }
+
+                        @include lg {
+                            padding: 20px 40px;
+                        }
+                    }
+                }
+
+                #submit {
+                    grid-area: submit;
+                    display: flex;
+                    justify-content: center;
+                    // color: $white;
+
+                    button {
+                        overflow: visible;
+                        border: none;
+                        background-color: $footer-icons;
+                        color: $white;
+                        padding: 15px;
+
+                        @include md {
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #social-icons {
+            ul {
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                // margin-bottom: 40px;
+
+                i {
+                    font-size: rem-calc(24);
+                    color: $footer-icons;
+                }
+
+                .fb,
+                .ig,
+                .tw,
+                .yt {
+                    margin: 10px 10px;
+                }
+
+                @include md {
+                    margin-bottom: 20px;
+                }
+            }
+
+        }
+
+        #footer-nav {
+            @include md {
+                margin-bottom: 20px;
+                display: grid;
+                grid-template-rows: repeat(2, 44px);
+                gap: 20px;
+                grid-template-areas: "top"
+                    "bottom";
+            }
+
+            #footer-nav-container {
+                display: none;
+
+                @include md {
+                    grid-area: bottom;
+                    display: block !important;
+                    background-color: $footer-bg;
+                    border-top: 2px solid $footer-text;
+                }
+            }
+
+            #footer-logo-container {
+
+                @include md {
+                    grid-area: top;
+                    display: grid;
+                    grid-template-columns: 10% auto;
+                    grid-template-areas: "logo creds";
+                    // padding-bottom: 10px;
+                    // border-bottom: 2px solid $footer-text;
+                }
+
+                #logo {
+                    grid-area: logo;
+                    
+                    // @include md {
+                    //     border-bottom: 2px solid $footer-text;
+                    // }
+                }
+            }
+
+
+        }
+    }
 }

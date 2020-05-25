@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="85px" viewBox="0 0 192 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>email us</title>
+    <defs>
+        <filter x="-14.1%" y="-50.0%" width="128.2%" height="200.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-185.000000, -4708.000000)">
+            <g id="contacts-section" transform="translate(-1.000000, 4470.000000)">
+                <g id="email-us" transform="translate(202.227218, 256.375968)">
+                    <g id="mobile_email-us-copy" transform="translate(5.000000, 3.000000)" fill="#008297" fill-opacity="0.4">
+                        <rect id="Rectangle" filter="url(#filter-1)" x="0" y="0" width="149" height="42" rx="19"></rect>
+                    </g>
+                    <g id="mobile_email-us">
+                        <rect id="Rectangle" fill="#008297" fill-rule="evenodd" x="0" y="0" width="149" height="42" rx="19"></rect>
+                        <text id="e-mail-us" font-family="RobotoMono-Regular, Roboto Mono" font-size="18" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="25.3876953" y="28">e-mail us</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -196,11 +196,96 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/section-5/directions.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-5/directions.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-5/participant.jpg": {
+		"ft": 16384,
+		"iS": 97321,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/participant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-5/section-5-visual.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/section-5/section-5-visual.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-6/deer.jpg": {
+		"ft": 16384,
+		"iS": 73077,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/deer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/dress.jpg": {
+		"ft": 16384,
+		"iS": 191548,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/dress.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/snap.jpg": {
+		"ft": 16384,
+		"iS": 301389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/snap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/timeline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-6/timeline.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-7/birds.jpg": {
+		"ft": 16384,
+		"iS": 250183,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-7/birds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-7/email-us.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-7/email-us.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -224,14 +309,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/design/han-web2-final-design.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/design/han-web2-final-design.sketch",
-		"oF": 0
 		},
 	"/dev/footer.kit": {
 		"cB": 0,
@@ -489,19 +566,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/_section-8.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-8.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -569,14 +633,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-7.html",
-		"oF": 0
-		},
-	"/dev/section-8.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-8.html",
 		"oF": 0
 		},
 	"/README.md": {

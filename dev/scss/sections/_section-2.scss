@@ -2,6 +2,110 @@
     Section 2
 ============= */
 #section-2 {
-    
-    
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-2-container .";
+    padding: 20px 0;
+
+    @include lg {
+        display: grid;
+        grid-template-columns: 40px auto 40px;
+        grid-template-areas: ". section-2-container .";
+    }
+
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-2-container .";
+    }
+
+    #section-2-container {
+        grid-area: section-2-container;
+
+        display: grid;
+        grid-template-rows: 250px auto;
+        grid-template-areas: "photo"
+            "content";
+
+        @include md {
+            display: grid; 
+            grid-template-rows: 1fr;
+            grid-template-columns: 60% auto;
+            grid-template-areas: "photo content";
+            gap: 20px;
+        }      
+
+        @include lg {
+            display: grid; 
+            grid-template-rows: 1fr;
+            grid-template-columns: 60% auto;
+            grid-template-areas: "photo content";
+            gap: 60px;
+        }
+
+        @include xl {
+            grid-area: section-2-container;
+        }
+
+        aside {
+            grid-area: photo;
+            background-image: url('../img/section-2/thepeoplegrouppic.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+
+            @include md {
+                grid-area: photo;
+                height: 380px;
+            }
+
+            @include lg {
+                grid-area: photo;
+                height: 450px;
+            }
+        }
+
+        #section-2-content {
+            grid-area: content;
+
+            @include md {
+                grid-area: content;
+
+            }
+
+            h1 {
+                text-align: center;
+                font-size: rem-calc(40);
+                margin-bottom: 10px;
+                color: $nav-teal;
+
+                @include lg {
+                    text-align: left;
+                }
+            }
+
+            p {
+                text-align: justify;
+                font-size: rem-calc(16);
+                color: $section-2-text;
+                margin-bottom: 10px;
+
+                @include md {
+                    text-align: left;
+                }
+            }
+
+            img {
+                width: 200px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                cursor: pointer;
+
+                @include md {
+                    width: 225px;
+                }
+            }
+        }
+    }
 }

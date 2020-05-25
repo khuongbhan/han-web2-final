@@ -1,3 +1,58 @@
 /* =============
     Section 6
 ============= */
+#section-6 {
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-6-container .";
+
+    #section-6-container {
+        grid-area: section-6-container;
+
+        #gallery {
+            display: grid;
+
+            // #timeline {
+                
+            // }
+
+            #gallery-items {
+                display: grid;
+                grid-template-rows: 400px 250px 400px;
+                gap: 30px;
+                grid-template-areas: "gallery-1"
+                    "gallery-2"
+                    "gallery-3";
+
+                #gallery-1 {
+                    grid-area: gallery-1;
+                    background-image: url('../img/section-6/dress.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    height: 400px;
+                }
+
+                #gallery-2 {
+                    grid-area: gallery-2;
+                    background-image: url('../img/section-6/deer.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    height: 250px;
+                }
+
+                #gallery-3 {
+                    grid-area: gallery-3;
+                    background-image: url('../img/section-6/snap.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    height: 400px;
+                }
+            }
+
+        }
+    }
+}
