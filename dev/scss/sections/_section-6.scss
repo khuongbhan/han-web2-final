@@ -7,15 +7,31 @@
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-6-container .";
 
+    @include md {
+        display: grid;
+        grid-template-columns: 180px auto 180px;
+        grid-template-areas: ". section-6-container .";
+    }
+
+    @include lg {
+        display: grid;
+        grid-template-columns: 50px auto 50px;
+        grid-template-areas: ". section-6-container .";
+    }
+
     #section-6-container {
         grid-area: section-6-container;
 
+        @include md {
+            grid-area: section-6-container;
+        }
+
+        @include lg {
+            grid-area: section-6-container;
+        }
+
         #gallery {
             display: grid;
-
-            // #timeline {
-                
-            // }
 
             #gallery-items {
                 display: grid;
@@ -25,6 +41,23 @@
                     "gallery-2"
                     "gallery-3";
 
+                @include md {
+                    grid-template-rows: 500px 350px 500px;
+                    gap: 50px;
+                    grid-template-areas: "gallery-1"
+                        "gallery-2"
+                        "gallery-3";
+                }
+
+                @include lg {
+                    grid-template-rows: 300px 600px;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-areas: ". gallery-2 gallery-2 ."
+                                         "gallery-1 gallery-1 gallery-3 gallery-3";
+                    gap: 50px 20px;
+
+                }
+
                 #gallery-1 {
                     grid-area: gallery-1;
                     background-image: url('../img/section-6/dress.jpg');
@@ -32,6 +65,14 @@
                     background-position: center;
                     background-repeat: no-repeat;
                     height: 400px;
+
+                    @include md {
+                        height: 500px;
+                    }
+
+                    @include lg {
+                        height: 600px;
+                    }
                 }
 
                 #gallery-2 {
@@ -41,6 +82,15 @@
                     background-position: center;
                     background-repeat: no-repeat;
                     height: 250px;
+
+                    @include md {
+                        height: 350px;
+                    }
+
+                    @include lg {
+                        height: 300px;
+                    }
+
                 }
 
                 #gallery-3 {
@@ -50,7 +100,37 @@
                     background-position: center;
                     background-repeat: no-repeat;
                     height: 400px;
+
+                    @include md {
+                        height: 500px;
+                    }
+
+                    @include lg {
+                        height: 600px;
+                    }
                 }
+
+            }
+
+            #gallery-timeline {
+                position: absolute;
+                width: 100%;
+                padding-top: 70px;
+
+                @include md { 
+                    padding-top: 280px;
+                    left: 0px;
+                }
+
+                @include lg {
+                    padding-top: 40px;
+                }
+
+                img {
+                    margin: auto;
+                    display: block;
+                }
+
             }
 
         }

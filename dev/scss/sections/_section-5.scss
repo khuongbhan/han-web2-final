@@ -105,6 +105,11 @@
                 @include md {
                     width: 230px;
                 }
+
+                @include lg {
+                    width: 240px;
+                    margin-right: 0;
+                }
             }
         }
     }
