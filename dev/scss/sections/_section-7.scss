@@ -8,6 +8,12 @@
         padding: 50px 0;
     }
 
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-7-container .";
+        // max-width: 1200px;
+    }
+
     #section-7-container {
         display: grid;
         grid-template-rows: 270px auto;
@@ -28,7 +34,16 @@
         }
 
         @include lg {
+            height: 800px;
+            margin-bottom: 50px;
+        }
+
+        @include xl {
+            grid-area: section-7-container;
             height: 900px;
+            // padding: 80px 0;
+            // grid-template-columns: auto 1200px auto;
+            // grid-template-areas: ". section-7-content .";
         }
 
         #section-7-img {
@@ -44,9 +59,9 @@
             }
         }
 
-        @include md {
-            height: 580px;
-        }
+        // @include md {
+        //     height: 580px;
+        // }
 
 
         #section-7-content {
@@ -64,6 +79,7 @@
 
                 @include lg {
                     margin-left: 200px;
+                    margin-top: 100px;
                     text-align: left;
                 }
             }
