@@ -596,7 +596,7 @@ footer {
   padding-top: 90px;
   padding-bottom: 100px;
   display: grid;
-  grid-template-columns: 10px auto 10px;
+  grid-template-columns: 0 auto 0;
   grid-template-areas: ". title-container ."; }
   @media (min-width: 1200px) {
     #section-1 {
