@@ -116,10 +116,10 @@
                 position: absolute;
                 width: 100%;
                 padding-top: 70px;
+                left: 0;
 
                 @include md { 
                     padding-top: 280px;
-                    left: 0px;
                 }
 
                 @include lg {

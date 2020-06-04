@@ -7,17 +7,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    
+    z-index: 100;
+
     >div {
-        display: grid; 
+        display: grid;
         grid-template-areas: " logo burger "
-                             " nav nav ";
+            " nav nav ";
         grid-template-columns: 80% auto;
         border-bottom: 2px solid $nav-teal;
-
-        // hr {
-        //     border-top: 2px solid $nav-teal;
-        // }
 
         section {
             i {
@@ -27,7 +24,7 @@ header {
         }
 
         @include lg {
-            display: grid; 
+            display: grid;
             grid-template-areas: " logo nav nav ";
             grid-template-columns: 10% 50% auto;
             background-color: $background-color;
@@ -36,6 +33,7 @@ header {
         #logo-container {
             grid-area: logo;
             padding: 20px;
+
             // cursor: pointer;
             img {
                 width: 60px;
@@ -60,12 +58,46 @@ header {
             @include lg {
                 display: none !important;
             }
-            
-            i {
+
+            // i {
+            //     cursor: pointer;
+            // }
+
+            .container {
+                display: inline-block;
                 cursor: pointer;
+                // display: flex;
+                // align-items: center;
+                // justify-content: flex-end;
             }
+
+            .bar1,
+            .bar2,
+            .bar3 {
+                border-radius: 10px;
+                width: 35px;
+                height: 5px;
+                background-color: $nav-teal;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+
+            .change .bar1 {
+                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                transform: rotate(-45deg) translate(-9px, 6px);
+            }
+
+            .change .bar2 {
+                opacity: 0;
+            }
+
+            .change .bar3 {
+                -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                transform: rotate(45deg) translate(-8px, -8px);
+            }
+
         }
-        
+
         #nav-container {
             grid-area: nav;
             display: none;
@@ -75,9 +107,7 @@ header {
             @include lg {
                 display: block !important;
                 grid-area: nav;
-                // vertical-align: bottom;
-
-                // padding-top: 0;
+            
             }
         }
 

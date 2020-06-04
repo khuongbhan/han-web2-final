@@ -17,7 +17,26 @@ function mouseClick(){
     }
 }
 
-$burger.on( "click", mouseClick);
-// close the mobile menu when menu link is clicked
-$navA.on( "click", mouseClick);
+function myFunction(x) {
+    x.classList.toggle("change");
+
+    console.log("click");
+    if(isVisible === false){
+        $nav.show();
+        isVisible = true;
+    }
+    else{
+        $nav.hide();
+        isVisible = false;
+    }
+}
+
+$navA.on( "click", myFunction);
+$burger.on( "click", myFunction);
+
+
+// $burger.on( "click", mouseClick);
+// // close the mobile menu when menu link is clicked
+// $navA.on( "click", mouseClick);
+
 
