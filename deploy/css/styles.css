@@ -554,9 +554,15 @@ footer {
       display: flex;
       justify-content: center;
       padding-top: 20px; }
+      footer #footer-container #social-icons ul a:link,
+      footer #footer-container #social-icons ul a:visited {
+        color: #5FB6C6;
+        text-decoration: none; }
+      footer #footer-container #social-icons ul a:hover,
+      footer #footer-container #social-icons ul a:active {
+        color: #F4A795; }
       footer #footer-container #social-icons ul i {
-        font-size: 1.5rem;
-        color: #5FB6C6; }
+        font-size: 1.5rem; }
       footer #footer-container #social-icons ul .fb,
       footer #footer-container #social-icons ul .ig,
       footer #footer-container #social-icons ul .tw,

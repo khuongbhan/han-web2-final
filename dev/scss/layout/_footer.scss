@@ -118,9 +118,21 @@ footer {
                 padding-top: 20px;
                 // margin-bottom: 40px;
 
+                a:link,
+                a:visited {
+                    color: $footer-icons;
+                    text-decoration: none;
+                }
+
+                a:hover,
+                a:active {
+                    color: $pink-orange;
+                }
+
                 i {
                     font-size: rem-calc(24);
-                    color: $footer-icons;
+                    // color: $footer-icons;
+
                 }
 
                 .fb,
@@ -171,7 +183,7 @@ footer {
 
                 #logo {
                     grid-area: logo;
-                    
+
                     // @include md {
                     //     border-bottom: 2px solid $footer-text;
                     // }
